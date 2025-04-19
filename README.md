@@ -4,35 +4,38 @@ This project demonstrates a cost-effective depth estimation system using a stere
 
 🎯 Project Objectives
 
-    -- Build a stereo camera system for real-time depth estimation.
+  -- Build a stereo camera system for real-time depth estimation.
 
-    -- Use low-cost ESP32-CAM modules for live video transmission.
+  -- Use low-cost ESP32-CAM modules for live video transmission.
 
-    -- Implement stereo image calibration,  disparity mapping, and object detection.
+  -- Implement stereo image calibration,  disparity mapping, and object detection.
 
-    -- Develop a scalable and affordable alternative to expensive depth cameras like Intel RealSense or OAK-D.
+  -- Develop a scalable and affordable alternative to expensive depth cameras like Intel RealSense or OAK-D.
+
 
 🛠️ Tools & Technologies
 
-    -- ESP32-CAM
+   -- ESP32-CAM
 
-    -- OpenCV (Python)
+   -- OpenCV (Python)
 
-    -- Arduino IDE
+   -- Arduino IDE
 
-    -- Stereo Vision and Calibration Techniques
+   -- Stereo Vision and Calibration Techniques
 
-    -- Wi-Fi-based image streaming
+   -- Wi-Fi-based image streaming
+
 
 🚘 Applications
 
-    -- Obstacle detection and avoidance
+   -- Obstacle detection and avoidance
 
-    -- Smart parking systems
+   -- Smart parking systems
 
-    -- Autonomous navigation
+   -- Autonomous navigation
 
-    -- Robotics and educational tools
+   -- Robotics and educational tools
+
 
 
 
@@ -44,13 +47,14 @@ Purpose:
 
 Highlights:
 
-  -- Uses object detection and segmentation with Mask R-CNN to localize targets in both images.
+   -- Uses object detection and segmentation with Mask R-CNN to localize targets in both images.
 
-  -- Computes horizontal disparities between bounding boxes.
+   -- Computes horizontal disparities between bounding boxes.
 
-  -- Derives focal length and geometric configuration from known object distances.
+   -- Derives focal length and geometric configuration from known object distances.
 
-  -- Outputs key calibration parameters: focal length (f) and tan(θ).
+   -- Outputs key calibration parameters: focal length (f) and tan(θ).
+
 
 📘 Depth_Estimation.py
 
