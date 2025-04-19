@@ -18,6 +18,7 @@ Highlights:
 📘 Depth_Estimation.py
 
 Purpose:
+
 -- This is the main inference script that connects to two ESP32-CAM modules, captures live stereo video streams, and performs real-time depth estimation and object detection.
 
 Highlights:
